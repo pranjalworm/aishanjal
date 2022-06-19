@@ -1,0 +1,61 @@
+{
+  "onBehalfOf": "groom",
+  "onBehalfOfName": "Pranjal Dubey",
+  "guestRequest": "I request the honor of your presence and blessings to grace the auspicious occasion of my brother's wedding.",
+  "selfAddress": "<span id='contact'>Contact</span><br><a href='tel:9761375393'>9761375393</a>",
+  "selfAddressLocation": "https://goo.gl/maps/uDeyXnr4QLMyiABU6",
+  "groom": {
+    "name": "Pranjal Dubey",
+    "mother": "Renu Dubey",
+    "father": "Rajeev Kumar Dubey",
+    "grandmother": "Sukh Devi Dubey",
+    "grandfather": "Late Suraj Kumar Dubey"
+  },
+  "bride": {
+    "name": "Aishwarya Sharma",
+    "mother": "Seema Sharma",
+    "father": "Mahendra P. Sharma",
+    "grandmother": "Late Bhagwati Sharma",
+    "grandfather": "Late Pyarelal Sharma"
+  },
+  "programmes": [
+    {
+      "day": "Tuesday, 3rd May, 2022",
+      "events": [
+        {
+          "name": "Lagan",
+          "time": "7 pm"
+        },
+        {
+          "name": "Ring Ceremony",
+          "time": "7:30 pm"
+        },
+        {
+          "name": "Mahendi & Sangeet",
+          "time": "8:30 pm"
+        }
+      ]
+    },
+    {
+      "day": "Wednesday, 4th May, 2022",
+      "events": [
+        {
+          "name": "Janeu",
+          "time": "8 am"
+        },
+        {
+          "name": "Haldi",
+          "time": "10 am"
+        },
+        {
+          "name": "Baarat",
+          "time": "7:30 pm"
+        },
+        {
+          "name": "Dinner",
+          "time": "8:30 pm onwards till your arrival "
+        }
+      ]
+    }
+  ]
+}

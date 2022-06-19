@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wedding Card</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gotu&family=Niconne&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+
+    /* @font-face {
+      font-family: 'Cursive';
+      font-style: normal;
+      font-weight: normal;
+      src: url('http://localhost:8080/AmeliaGiovani.otf') format('truetype');
+    } */
+
+    body {
+      position: relative;
+      text-align: center;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    /****************************** COMMON STYLING ********************************/
+    .page {
+      height: 895px;
+      min-height: 895px;
+      max-height: 895px;
+      width: 598px;
+      max-width: 598px;
+      min-width: 598px;
+      position: relative;
+    }
+
+    .page-bg {
+      position: absolute;
+      height: 895px;
+      width: 598px;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: -1;
+    }
+
+    #page4 {
+      max-height: 800px;
+    }
+
+
+    /******************************* PAGE 1 STYLING *******************************/
+
+    #names-wrapper {
+      left: 0;
+      right: 0;
+      top: 85px;
+      position: absolute;
+    }
+
+    .title-name {
+      color: #66190c;
+      font-size: 60px;
+      font-weight: bold;
+      font-family: 'Niconne';
+    }
+
+    #name1 {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 5px;
+    }
+
+    #weds {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 88px;
+      font-size: 18px;
+    }
+
+    #name2 {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 110px;
+    }
+
+    #weds,
+    #date {
+      color: rgb(68, 17, 10);
+      font-family: 'Niconne';
+    }
+
+    #date {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 218px;
+      font-size: 22px;
+    }
+
+    /******************************* PAGE 2 STYLING *******************************/
+
+    #shri-ganesh {
+      color: rgb(68, 17, 10);
+      font-family: 'Gotu';
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 140px;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    #mantra {
+      color: rgb(68, 17, 10);
+      font-family: 'Gotu';
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 320px;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    #wedding-ceremony {
+      color: rgb(68, 17, 10);
+      font-family: 'Niconne';
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 385px;
+      font-size: 22px;
+    }
+
+    #all-names-wrapper {
+      color: rgb(68, 17, 10);
+      font-family: 'Niconne';
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 425px;
+      font-size: 18px;
+    }
+
+
+    #with {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 98px;
+      font-size: 16px;
+    }
+
+
+    #section2 {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 115px;
+    }
+
+    #section3 {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+    }
+
+    .section-name {
+      font-size: 35px;
+      font-family: 'Niconne';
+      font-weight: bold;
+    }
+
+
+    #request {
+      color: rgb(68, 17, 10);
+      font-family: 'Niconne';
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 675px;
+      font-size: 18px;
+    }
+
+    /******************************* PAGE 3 STYLING *******************************/
+
+    #program-wrapper {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 315px;
+      color: rgb(68, 17, 10);
+      font-family: 'Niconne';
+    }
+
+    #section4 {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 115px;
+    }
+
+    .event {
+      font-size: 20px;
+    }
+
+    .section-heading {
+      font-size: 28px;
+    }
+
+    #address {
+      color: rgb(68, 17, 10);
+      font-family: 'Niconne';
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 580px;
+      font-size: 18px;
+    }
+
+    #venue {
+      color: rgb(68, 17, 10);
+      font-family: 'Niconne';
+      font-size: 16px;
+    }
+
+    #title-venue {
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    #more-info {
+      color: rgb(68, 17, 10);
+      font-family: 'Niconne';
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 702px;
+      font-size: 20px;
+    }
+
+    #more-info a {
+      text-decoration: underline;
+      color: rgb(68, 17, 10);
+      font-weight: bold;
+    }
+
+    /******************************* PAGE 4 STYLING *******************************/
+
+    #from {
+      margin-left: 130px;
+      text-align: left;
+    }
+
+    #guest-details-wrapper {
+      color: rgb(68, 17, 10);
+      font-family: 'Niconne';
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 375px;
+    }
+
+    #guest-name {
+      font-size: 30px;
+    }
+
+    #amp-divider {
+      font-size: 16px;
+    }
+
+    #guest-request {
+      font-size: 20px;
+      margin: auto;
+      margin-top: 245px;
+      width: 350px;
+    }
+
+    #special-note {
+      font-size: 20px;
+      width: 350px;
+      margin: auto;
+      margin-top: 10px;
+    }
+
+    #special-note span {
+      font-weight: bold;
+    }
+
+    #self-details-wrapper {
+      color: rgb(68, 17, 10);
+      font-family: 'Niconne';
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 635px;
+    }
+
+    #self-names {
+      font-size: 24px;
+    }
+
+    #self-address {
+      font-size: 16px;
+      margin-left: 130px;
+      text-align: left;
+    }
+
+    #self-address a {
+      text-decoration: underline;
+      color: rgb(68, 17, 10);
+    }
+
+    #self-location {
+      font-size: 20px;
+      margin-top: 20px;
+    }
+
+    #self-location a {
+      text-decoration: underline;
+      color: rgb(68, 17, 10);
+      font-weight: bold;
+    }
+
+    #to {
+      text-align: left;
+      margin-left: 130px;
+    }
+
+    strong,
+    b {
+      font-weight: normal;
+      -webkit-text-stroke: 0.02em;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- PAGE FOUR -->
+  <div class="page" id="page4">
+
+    <img src="http://localhost:8080/Page4.jpg" class="page-bg">
+
+    <div id="guest-details-wrapper">
+      <div id="to">
+        To
+      </div>
+      <div id="guest-name">
+        Shri Pawan Bansal<div id="amp-divider">&</div>family
+      </div>
+      
+    </div>
+
+    <div id="self-details-wrapper">
+      <div id="from">
+        From
+      </div>
+      <div id="self-names">
+        Renu Dubey & Rajeev Kumar Dubey
+      </div>
+
+      <div id="self-address">
+        C - 110, Shri Radhapuram,<br>Mathura, Uttar Pradesh<br><a href='tel:9457265333'>9457265333</a>, <a href='tel:9997489719'>9997489719</a>
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- PAGE ONE -->
+  <div class="page" id="page1">
+
+    <img src="http://localhost:8080/Page1.jpg" class="page-bg">
+
+    <div id="names-wrapper">
+      <div id="name1" class="title-name">
+        <strong>Pranjal</strong>
+      </div>
+
+      <div id="weds">
+        weds
+      </div>
+
+      <div id="name2" class="title-name">
+        <strong>Aishwarya</strong>
+      </div>
+
+      <div id="date">
+        Wednesday, 4th May 2022
+      </div>
+    </div>
+
+  </div>
+
+  <!-- PAGE TWO -->
+  <div class="page" id="page2">
+
+    <img src="http://localhost:8080/Page2.jpg" class="page-bg">
+
+    <div id="shri-ganesh">
+      ॥ श्री गणेशाय नमः ॥
+    </div>
+
+    <div id="mantra">
+      ॥ वक्रतुण्ड महाकाय सूर्यकोटि समप्रभ:<br>
+      निर्विघ्नं कुरु मे देव सर्वकार्येषु सर्वदा ॥
+    </div>
+
+    <div id="wedding-ceremony">
+      Wedding Ceremony of
+    </div>
+
+    <div id="all-names-wrapper">
+
+      <div id="section1">
+        <div class="section-name">
+          <strong>Pranjal Dubey</strong>
+        </div>
+        <div class="section-other-names">
+
+          <div>
+            S/O Renu Dubey & Rajeev Kumar Dubey
+          </div>
+          <div>
+            G/O Sukh Devi Dubey & Late Suraj Kumar Dubey
+          </div>
+
+        </div>
+      </div>
+
+      <div id="with">
+        with
+      </div>
+
+      <div id="section2">
+        <div class="section-name">
+          <strong>Aishwarya Sharma</strong>
+        </div>
+        <div class="section-other-names">
+
+          <div>
+            D/O Seema Sharma & Mahendra P. Sharma
+          </div>
+          <div>
+            G/O Late Bhagwati Sharma & Late Pyarelal Sharma
+          </div>
+
+        </div>
+      </div>
+
+      <div id="section3">
+        <div id="guest-request">
+          We request the honor of your presence and blessings with family to grace the auspicious occasion of our Son's wedding.
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- PAGE THREE -->
+  <div class="page" id="page3">
+
+    <img src="http://localhost:8080/Page3.jpg" class="page-bg">
+
+    <div id="program-wrapper">
+
+      <div id="section3">
+        <div class="section-heading">
+          Tuesday, 3rd May, 2022
+        </div>
+        <div class="event">Ring Ceremony, 7:30 pm</div><div class="event">Mahendi & Sangeet, 8:30 pm</div>
+      </div>
+
+      <div id="section4">
+        <div class="section-heading">
+          Wednesday, 4th May, 2022
+        </div>
+        <div class="event">Janeu, 8 am</div><div class="event">Haldi, 10 am</div><div class="event">Baarat, 7:30 pm</div><div class="event">Dinner, 8:30 pm onwards till your arrival </div>
+      </div>
+
+    </div>
+
+    <div id="address">
+      <div id="venue">Venue</div>
+      <div id="title-venue">Khandelwal Sewa Sadan</div>
+      <div>Near Goverdhan Crossing, Goverdhan Road</div>
+      <div>Mathura, Uttar Pradesh, 281004</div>
+    </div>
+
+    <div id="more-info">
+      <a href="https://goo.gl/maps/MWTzxXYX9Ax6pud4A">Click here</a><br>for Google Maps location of the venue.
+    </div>
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,78 @@
+{
+  "onBehalfOf": "bride",
+  "onBehalfOfName": "Aishwarya Sharma",
+  "guestRequest": "Pranjal and I are about to embark upon a new and exciting journey and would love you to be the part of our wedding.",
+  "selfAddress": "<span id='contact'>Contact</span><br><a href='tel:9711370102'>9711370102</a>",
+  "selfAddressLocation": "https://goo.gl/maps/uDeyXnr4QLMyiABU6",
+  "groom": {
+    "name": "Pranjal Dubey",
+    "mother": "Renu Dubey",
+    "father": "Rajeev Kumar Dubey",
+    "grandmother": "Sukh Devi Dubey",
+    "grandfather": "Late Suraj Kumar Dubey"
+  },
+  "bride": {
+    "name": "Aishwarya Sharma",
+    "mother": "Seema Sharma",
+    "father": "Mahendra P. Sharma",
+    "grandmother": "Late Bhagwati Sharma",
+    "grandfather": "Late Pyarelal Sharma"
+  },
+  "programmes": [
+    {
+      "day": "Tuesday, 3rd May, 2022",
+      "events": [
+        {
+          "name": "Ganesh Pooja",
+          "time": "1 pm"
+        },
+        {
+          "name": "Lagan Patrika",
+          "time": "1:30 pm"
+        },
+        {
+          "name": "Mandap",
+          "time": "3 pm"
+        },
+        {
+          "name": "Tilak",
+          "time": "7 pm"
+        },
+        {
+          "name": "Engagement",
+          "time": "7:30 pm"
+        },
+        {
+          "name": "Mahendi & Sangeet",
+          "time": "9 pm"
+        }
+      ]
+    },
+    {
+      "day": "Wednesday, 4th May, 2022",
+      "events": [
+        {
+          "name": "Haldi",
+          "time": "10 am"
+        },
+        {
+          "name": "Reception",
+          "time": "8 pm"
+        }
+      ]
+    },
+    {
+      "day": "Thursday, 5th May, 2022",
+      "events": [
+        {
+          "name": "Phere",
+          "time": "1 am"
+        },
+        {
+          "name": "Vidai",
+          "time": "5 am"
+        }
+      ]
+    }
+  ]
+}

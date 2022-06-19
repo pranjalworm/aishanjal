@@ -1,0 +1,70 @@
+{
+  "onBehalfOf": "groom",
+  "onBehalfOfName": "Renu Dubey & Rajeev Kumar Dubey",
+  "guestRequest": "We request the honor of your presence and blessings with family to grace the auspicious occasion of our Son's wedding.",
+  "selfAddress": "C - 110, Shri Radhapuram,<br>Mathura, Uttar Pradesh<br><a href='tel:9457265333'>9457265333</a>, <a href='tel:9997489719'>9997489719</a>",
+  "selfAddressLocation": "https://goo.gl/maps/uDeyXnr4QLMyiABU6",
+  "groom": {
+    "name": "Pranjal Dubey",
+    "mother": "Renu Dubey",
+    "father": "Rajeev Kumar Dubey",
+    "grandmother": "Sukh Devi Dubey",
+    "grandfather": "Late Suraj Kumar Dubey"
+  },
+  "bride": {
+    "name": "Aishwarya Sharma",
+    "mother": "Seema Sharma",
+    "father": "Mahendra P. Sharma",
+    "grandmother": "Late Bhagwati Sharma",
+    "grandfather": "Late Pyarelal Sharma"
+  },
+  "programmes": [
+    {
+      "day": "Tuesday, 3rd May, 2022",
+      "events": [
+        {
+          "name": "Lagan",
+          "time": "7 pm"
+        },
+        {
+          "name": "Ring Ceremony",
+          "time": "7:30 pm"
+        },
+        {
+          "name": "Mahendi & Sangeet",
+          "time": "8:30 pm"
+        }
+      ]
+    },
+    {
+      "day": "Wednesday, 4th May, 2022",
+      "events": [
+        {
+          "name": "Janeu",
+          "time": "8 am"
+        },
+        {
+          "name": "Haldi",
+          "time": "10 am"
+        },
+        {
+          "name": "Baarat",
+          "time": "7:30 pm"
+        },
+        {
+          "name": "Dinner",
+          "time": "8:30 pm onwards till your arrival "
+        }
+      ]
+    },
+    {
+      "day": "Thursday, 5th May, 2022",
+      "events": [
+        {
+          "name": "Vidai",
+          "time": "5 am"
+        }
+      ]
+    }
+  ]
+}
